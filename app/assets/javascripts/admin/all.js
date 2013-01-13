@@ -11,3 +11,9 @@
 //= require admin/spree_promo
 
 //= require_tree .
+//= require admin/spree_social_products
+//= require admin/jquery.scrollTo-min
+//= require admin/spree_faq
+//= require admin/spree_essentials
+//= require admin/spree_essential_menus
+//= require admin/spree_fancy

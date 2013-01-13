@@ -5,7 +5,9 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'mysql2'
+
+gem 'haml'
 
 
 # Gems used only for assets and not required
@@ -37,4 +39,19 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 gem 'spree', '1.3.1'
-gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
+gem 'spree_auth_devise',      :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
+gem 'spree_reviews',          :github => 'spree/spree_reviews'
+gem 'spree_social_products',  :github => 'spree/spree_social_products'
+gem 'spree_related_products', :github => 'spree/spree_related_products'
+gem 'spree_recently_viewed',  :github => 'spree/spree_recently_viewed'
+gem 'spree_product_zoom',     :github => 'chautoni/spree_product_zoom'
+gem 'spree_mail_chimp',       :github => 'mzahir/spree-mail-chimp'
+gem 'spree_faq',              :path   => 'spree-faq/'
+gem 'spree_paypal_express',   :github => 'spree/spree_paypal_express', :branch => '1-3-stable'
+gem 'spree_essentials',       :path   => 'spree_essentials/', :branch => '1-3'
+gem 'spree_dynamic_sitemaps', :github => 'rdegan/spree_dynamic_sitemaps'
+gem 'spree_essential_cms',    :github => 'assembled/spree_essential_cms'
+gem 'spree_essential_menus',  :github => 'assembled/spree_essential_menus'
+gem 'spree_clean',            :github => 'spree/spree_clean'
+gem 'spree_fancy',            :path   => 'spree_fancy/'
+# gem 'spree_snippets',

@@ -1,5 +1,4 @@
 // This is a manifest file that'll be compiled into including all the files listed below.
-// Add new JavaScript/Coffee code in separate files in this directory and they'll automatically
 // be included in the compiled file accessible from http://example.com/assets/application.js
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
@@ -11,3 +10,11 @@
 //= require store/spree_promo
 
 //= require_tree .
+
+//= require store/spree_social_products
+//= require store/spree_mail_chimp
+//= require store/spree_faq
+//= require store/spree_product_zoom
+//= require store/spree_essential_menus
+//= require store/spree_fancy
+//= require jquery.rating

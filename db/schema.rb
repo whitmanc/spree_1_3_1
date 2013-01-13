@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130113071477) do
+ActiveRecord::Schema.define(:version => 20130113170748) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -101,6 +101,23 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
 
   add_index "spree_configurations", ["name", "type"], :name => "index_spree_configurations_on_name_and_type"
 
+  create_table "spree_contents", :force => true do |t|
+    t.integer  "page_id"
+    t.string   "title"
+    t.text     "body"
+    t.string   "link"
+    t.string   "link_text"
+    t.string   "context"
+    t.boolean  "hide_title",              :default => false
+    t.integer  "position",                :default => 999
+    t.string   "attachment_file_name"
+    t.string   "attachment_content_type"
+    t.integer  "attachment_file_size"
+    t.datetime "attachment_updated_at"
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
+  end
+
   create_table "spree_countries", :force => true do |t|
     t.string  "iso_name"
     t.string  "iso"
@@ -126,6 +143,19 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
     t.datetime "created_at",                  :null => false
     t.datetime "updated_at",                  :null => false
   end
+
+  create_table "spree_feedback_reviews", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "review_id",                    :null => false
+    t.integer  "rating",     :default => 0
+    t.text     "comment"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.string   "locale",     :default => "en"
+  end
+
+  add_index "spree_feedback_reviews", ["review_id"], :name => "index_feedback_reviews_on_review_id"
+  add_index "spree_feedback_reviews", ["user_id"], :name => "index_feedback_reviews_on_user_id"
 
   create_table "spree_gateways", :force => true do |t|
     t.string   "type"
@@ -182,6 +212,30 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
     t.datetime "updated_at",                    :null => false
   end
 
+  create_table "spree_menu_bars", :force => true do |t|
+    t.string   "name"
+    t.string   "description"
+    t.string   "css_class"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "spree_menus", :force => true do |t|
+    t.integer  "page_id"
+    t.integer  "menu_bar_id"
+    t.integer  "sequence"
+    t.integer  "parent_id"
+    t.string   "link_text"
+    t.string   "url"
+    t.boolean  "visible",                 :default => true
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
+    t.string   "menu_image_file_name"
+    t.string   "menu_image_content_type"
+    t.integer  "menu_image_file_size"
+    t.datetime "menu_image_updated_at"
+  end
+
   create_table "spree_option_types", :force => true do |t|
     t.string   "name",         :limit => 100
     t.string   "presentation", :limit => 100
@@ -236,6 +290,20 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
 
   add_index "spree_orders", ["number"], :name => "index_spree_orders_on_number"
 
+  create_table "spree_pages", :force => true do |t|
+    t.string   "title"
+    t.string   "nav_title"
+    t.string   "path"
+    t.string   "meta_title"
+    t.string   "meta_description"
+    t.string   "meta_keywords"
+    t.integer  "position",         :default => 999
+    t.boolean  "accessible",       :default => true
+    t.boolean  "visible",          :default => true
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
+  end
+
   create_table "spree_payment_methods", :force => true do |t|
     t.string   "type"
     t.string   "name"
@@ -258,6 +326,13 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
     t.string   "avs_response"
     t.datetime "created_at",                                                       :null => false
     t.datetime "updated_at",                                                       :null => false
+  end
+
+  create_table "spree_paypal_accounts", :force => true do |t|
+    t.string "email"
+    t.string "payer_id"
+    t.string "payer_country"
+    t.string "payer_status"
   end
 
   create_table "spree_preferences", :force => true do |t|
@@ -295,7 +370,7 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
   add_index "spree_product_properties", ["product_id"], :name => "index_product_properties_on_product_id"
 
   create_table "spree_products", :force => true do |t|
-    t.string   "name",                 :default => "",    :null => false
+    t.string   "name",                                               :default => "",    :null => false
     t.text     "description"
     t.datetime "available_on"
     t.datetime "deleted_at"
@@ -304,10 +379,12 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
     t.string   "meta_keywords"
     t.integer  "tax_category_id"
     t.integer  "shipping_category_id"
-    t.integer  "count_on_hand",        :default => 0
-    t.datetime "created_at",                              :null => false
-    t.datetime "updated_at",                              :null => false
-    t.boolean  "on_demand",            :default => false
+    t.integer  "count_on_hand",                                      :default => 0
+    t.datetime "created_at",                                                            :null => false
+    t.datetime "updated_at",                                                            :null => false
+    t.boolean  "on_demand",                                          :default => false
+    t.decimal  "avg_rating",           :precision => 7, :scale => 5, :default => 0.0,   :null => false
+    t.integer  "reviews_count",                                      :default => 0,     :null => false
   end
 
   add_index "spree_products", ["available_on"], :name => "index_spree_products_on_available_on"
@@ -381,6 +458,41 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "spree_question_categories", :force => true do |t|
+    t.string   "name"
+    t.integer  "position"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "spree_questions", :force => true do |t|
+    t.integer  "question_category_id"
+    t.text     "question"
+    t.text     "answer"
+    t.integer  "position"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
+  create_table "spree_relation_types", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.string   "applies_to"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "spree_relations", :force => true do |t|
+    t.integer  "relation_type_id"
+    t.integer  "relatable_id"
+    t.string   "relatable_type"
+    t.integer  "related_to_id"
+    t.string   "related_to_type"
+    t.datetime "created_at",                                                      :null => false
+    t.datetime "updated_at",                                                      :null => false
+    t.decimal  "discount_amount",  :precision => 8, :scale => 2, :default => 0.0
+  end
+
   create_table "spree_return_authorizations", :force => true do |t|
     t.string   "number"
     t.string   "state"
@@ -389,6 +501,21 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
     t.text     "reason"
     t.datetime "created_at",                                                :null => false
     t.datetime "updated_at",                                                :null => false
+  end
+
+  create_table "spree_reviews", :force => true do |t|
+    t.integer  "product_id"
+    t.string   "name"
+    t.string   "location"
+    t.integer  "rating"
+    t.text     "title"
+    t.text     "review"
+    t.boolean  "approved",   :default => false
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
+    t.integer  "user_id"
+    t.string   "ip_address"
+    t.string   "locale",     :default => "en"
   end
 
   create_table "spree_roles", :force => true do |t|
@@ -453,6 +580,16 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
     t.string  "abbr"
     t.integer "country_id"
   end
+
+  create_table "spree_suggestions", :force => true do |t|
+    t.string   "keywords"
+    t.integer  "count"
+    t.integer  "items_found"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "spree_suggestions", ["keywords", "count", "items_found"], :name => "index_spree_suggestions_on_keywords_and_count_and_items_found"
 
   create_table "spree_tax_categories", :force => true do |t|
     t.string   "name"
@@ -521,15 +658,15 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
   end
 
   create_table "spree_users", :force => true do |t|
-    t.string   "encrypted_password",     :limit => 128
-    t.string   "password_salt",          :limit => 128
+    t.string   "encrypted_password",      :limit => 128
+    t.string   "password_salt",           :limit => 128
     t.string   "email"
     t.string   "remember_token"
     t.string   "persistence_token"
     t.string   "reset_password_token"
     t.string   "perishable_token"
-    t.integer  "sign_in_count",                         :default => 0, :null => false
-    t.integer  "failed_attempts",                       :default => 0, :null => false
+    t.integer  "sign_in_count",                          :default => 0,     :null => false
+    t.integer  "failed_attempts",                        :default => 0,     :null => false
     t.datetime "last_request_at"
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
@@ -542,10 +679,12 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
     t.string   "unlock_token"
     t.datetime "locked_at"
     t.datetime "reset_password_sent_at"
-    t.datetime "created_at",                                           :null => false
-    t.datetime "updated_at",                                           :null => false
-    t.string   "spree_api_key",          :limit => 48
+    t.datetime "created_at",                                                :null => false
+    t.datetime "updated_at",                                                :null => false
+    t.string   "spree_api_key",           :limit => 48
     t.datetime "remember_created_at"
+    t.boolean  "is_mail_list_subscriber",                :default => false, :null => false
+    t.string   "mailchimp_subscriber_id"
   end
 
   add_index "spree_users", ["email"], :name => "email_idx_unique", :unique => true
@@ -561,10 +700,10 @@ ActiveRecord::Schema.define(:version => 20130113071477) do
     t.integer  "product_id"
     t.integer  "count_on_hand",                               :default => 0
     t.decimal  "cost_price",    :precision => 8, :scale => 2
+    t.string   "cost_currency"
     t.integer  "position"
     t.integer  "lock_version",                                :default => 0
     t.boolean  "on_demand",                                   :default => false
-    t.string   "cost_currency"
   end
 
   add_index "spree_variants", ["product_id"], :name => "index_spree_variants_on_product_id"

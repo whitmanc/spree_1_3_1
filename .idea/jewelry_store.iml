@@ -18,6 +18,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="active_utils (v1.0.5, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="acts_as_list (v0.1.4, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="acts_as_tree (v1.1.0, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v3.0.2, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="aws-sdk (v1.3.9, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt-ruby (v3.0.1, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
@@ -30,19 +31,25 @@
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffaker (v1.12.1, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="haml (v3.1.7, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="highline (v1.6.11, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.1, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="httparty (v0.8.3, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari (v0.13.0, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.4.4, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.3.11, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.0.7, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyamorous (v0.5.0, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-ssl (v1.3.2, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdiscount (v1.6.8, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.5, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_essentials (v0.5.0, /Users/chriswhitman/workspace/rails_apps/jewelry_store/spree_essentials) [path][gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_fancy (v1.3.0, /Users/chriswhitman/workspace/rails_apps/jewelry_store/spree_fancy) [path][gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_faq (v3.0.2, /Users/chriswhitman/workspace/rails_apps/jewelry_store/spree-faq) [path][gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="state_machine (v1.1.2, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stringex (v1.3.3, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.3, RVM: ruby-1.9.3-p194 [interapptive]) [gem]" level="application" />

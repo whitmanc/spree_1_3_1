@@ -1,0 +1,30 @@
+#subheader {
+    -webkit-box-shadow: inset 0 0 15px 0 rgb(87, 87, 87) !important;
+    -moz-box-shadow: inset 0 0 15px 0 #739c3e;
+    box-shadow: inset 0 0 15px 0 rgba(35, 34, 36);
+    background-color: #2f7edf !important;
+    color: white;
+    border-top: 5px solid #d6e4f5 !important;
+    border-bottom: 5px solid #d6e4f5 !important;
+    overflow: hidden;
+}
+
+.product-image a {
+    border-color:#d6e4f5 !important;
+}
+
+#home-slider ul li button, #home-slider ul li input[type="number"] {
+    border-color: #d6e4f5 !important;
+}
+
+#home-slider ul li button, #home-slider ul li input[type="number"] {
+    border-color: #d6e4f5 !important;
+}
+
+.slider-pager .bx-pager.bx-default-pager a.active, .slider-pager .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background-color: #ff9600 !important;
+}
+
+LI#home-link a:hover {
+    color: red !important;
+}
