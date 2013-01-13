@@ -16,6 +16,14 @@ GIT
       spree_essentials
 
 GIT
+  remote: git://github.com/bbtfr/spree_editor.git
+  revision: 49a3e4c45154a652f1626db3db0f1602cbfd191a
+  branch: 1.3.x
+  specs:
+    spree_editor (1.0.1)
+      spree_core (>= 1.0.0)
+
+GIT
   remote: git://github.com/chautoni/spree_product_zoom.git
   revision: 5ebdd99eeaa000147a0ed6c4926f28da685637fa
   specs:
@@ -95,6 +103,14 @@ PATH
   specs:
     spree_faq (3.0.2)
       spree_core (>= 0.30.1)
+
+PATH
+  remote: spree-snippets/
+  specs:
+    spree_snippets (0.6.0)
+      formtastic (>= 2.0.2)
+      spree_core (~> 1.3.1)
+      spree_editor (>= 0.50.0)
 
 PATH
   remote: spree_essentials/
@@ -195,6 +211,8 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     ffaker (1.12.1)
+    formtastic (2.2.1)
+      actionpack (>= 3.0)
     fssm (0.2.9)
     haml (3.1.7)
     highline (1.6.11)
@@ -321,6 +339,8 @@ GEM
     stringex (1.3.3)
     thor (0.16.0)
     tilt (1.3.3)
+    tinymce-rails (3.5.8)
+      railties (>= 3.1.1)
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
@@ -350,6 +370,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_clean!
   spree_dynamic_sitemaps!
+  spree_editor!
   spree_essential_cms!
   spree_essential_menus!
   spree_essentials!
@@ -361,5 +382,7 @@ DEPENDENCIES
   spree_recently_viewed!
   spree_related_products!
   spree_reviews!
+  spree_snippets!
   spree_social_products!
+  tinymce-rails (>= 3.4.7.0.1)
   uglifier (>= 1.0.3)

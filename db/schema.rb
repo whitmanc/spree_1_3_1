@@ -564,6 +564,15 @@ ActiveRecord::Schema.define(:version => 20130113170748) do
     t.datetime "updated_at",           :null => false
   end
 
+  create_table "spree_snippets", :force => true do |t|
+    t.string   "slug"
+    t.text     "content"
+    t.integer  "created_by"
+    t.integer  "modified_by"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
   create_table "spree_state_changes", :force => true do |t|
     t.string   "name"
     t.string   "previous_state"
