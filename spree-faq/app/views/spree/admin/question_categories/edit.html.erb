@@ -1,0 +1,38 @@
+<%= render :partial => 'spree/admin/shared/configuration_menu' %>
+
+<% content_for :page_title do %>
+  <%= t(:editing_category_questions) %>
+<% end %>
+
+<% content_for :page_actions do %>
+  <li>
+    <%= button_link_to t(:add_question), "#", :icon => 'icon-plus', :id => 'new_question_link' %>
+    <%= button_link_to t(:back_to_categories), spree.admin_question_categories_path, :icon => 'icon-arrow-left' %>
+  </li>
+<% end %>
+
+<%= render :partial => 'spree/shared/error_messages', :locals => { :target => @question_category } %>
+
+<%= form_for [:admin, @question_category] do |f| %>
+  <%= javascript_tag do %>
+     var new_question_html = '<%= generate_template(f, :questions) %>';
+  <% end %>
+  <div class="field">
+    <%= f.field_container :name do %>
+      <%= f.label :name, t("category_name") %> <span class="required">*</span><br />
+      <%= f.text_field :name, :class => 'fullwidth title'  %>  
+      <%= f.error_message_on :name %>
+    <% end %>
+  </div>
+  <div id="questions" style="margin-bottom: 20px">
+    <h3>Questions</h3>
+      <%= f.fields_for :questions do |question_form| %>
+        <%= render :partial => 'question', :locals => {:f => question_form } %>
+      <% end %>
+  </div>
+  <div class="form-buttons filter-actions actions" data-hook="buttons">
+    <%= button t(:update), 'icon-refresh' %>
+    <span class="or"><%= t(:or) %></span>
+    <%= link_to_with_icon 'icon-remove', t(:cancel), admin_question_categories_url, :class => 'button' %>
+  </div>                                     
+<% end %>

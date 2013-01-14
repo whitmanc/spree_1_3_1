@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store/checkout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/store/logo.png" afterPath="$PROJECT_DIR$/app/assets/images/store/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree-faq" afterPath="$PROJECT_DIR$/spree-faq" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree-snippets" afterPath="$PROJECT_DIR$/spree-snippets" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree_essentials" afterPath="$PROJECT_DIR$/spree_essentials" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree_fancy" afterPath="$PROJECT_DIR$/spree_fancy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="" />
     <ignored path="jewelry_store.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,7 +34,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="36" selection-start="759" selection-end="759" vertical-scroll-proportion="0.270428">
+            <state line="56" column="23" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.79571986">
               <folding />
             </state>
           </provider>
@@ -543,7 +535,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287841" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -551,7 +543,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36135057" sideWeight="0.6712159" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36135057" sideWeight="0.6712159" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -731,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="36" selection-start="759" selection-end="759" vertical-scroll-proportion="0.270428">
+        <state line="56" column="23" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.79571986">
           <folding />
         </state>
       </provider>

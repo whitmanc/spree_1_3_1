@@ -1,0 +1,10 @@
+<%= stylesheet_link_tag 'formtastic' %>
+
+<%= f.inputs do %>
+  <% if params[:action] == "edit" %>
+    <%= f.input :slug %>
+  <% else %>
+    <%= f.input :slug %>
+  <% end %>
+  <%= f.input :content, :as => :text %>
+<% end %>

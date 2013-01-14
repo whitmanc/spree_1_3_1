@@ -1,0 +1,13 @@
+<%= render :partial => 'spree/admin/shared/configuration_menu' %>
+
+<h1><%= t("editing_snippet") %></h1>
+
+<%= render "spree/shared/error_messages", :target => @snippet %>
+
+<%= semantic_form_for(:snippet, :url => object_url, :html => { :method => :put }) do |f| %>
+  <%= render :partial => "form", :locals => { :f => f } %>
+	<p class="form-buttons">
+    <%= button t("actions.update"), nil, 'submit' %>
+    <%= t("or") %> <%= link_to t("actions.cancel"), collection_url %>
+  </p>
+<% end %>
