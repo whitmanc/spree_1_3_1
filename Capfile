@@ -44,6 +44,11 @@ namespace :foreman do
 end
 
 namespace :deploy do
+  desc "Trace the assets to fix em"
+  task :asset_test do
+
+  end
+
   desc "Symlink shared configs and folders on each release."
   task :symlink_shared do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
@@ -52,6 +57,8 @@ namespace :deploy do
   end
 end
 
+
+before 'deploy:assets:precompile', 'deploy:asset_test'
 before 'deploy:assets:precompile', 'deploy:symlink_shared'
 
 before 'deploy:start', 'foreman:export'
