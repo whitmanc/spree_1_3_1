@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_navigation.scss" afterPath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_navigation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/variables.css.scss" afterPath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/variables.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/jquery.bxslider.scss" afterPath="$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/jquery.bxslider.scss" />
     </list>
     <ignored path="jewelry_store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="32" selection-start="304" selection-end="304" vertical-scroll-proportion="0.4377432">
+            <state line="15" column="32" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -45,7 +47,7 @@
       <file leaf-file-name="variables.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/variables.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="8" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
+            <state line="61" column="78" selection-start="2723" selection-end="2755" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -54,7 +56,25 @@
       <file leaf-file-name="_navigation.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_navigation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="4" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0">
+            <state line="98" column="48" selection-start="1891" selection-end="1896" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.bxslider.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/jquery.bxslider.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="176" column="4" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="207" column="32" selection-start="4986" selection-end="4986" vertical-scroll-proportion="0.52575105">
               <folding />
             </state>
           </provider>
@@ -91,8 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spree-snippets/spree_snippets.gemspec" />
-        <option value="$PROJECT_DIR$/spree-snippets/app/models/spree/snippet.rb" />
         <option value="$PROJECT_DIR$/spree-snippets/app/views/spree/admin/snippets/_form.html.erb" />
         <option value="$PROJECT_DIR$/spree_fancy/app/views/spree/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
@@ -105,8 +123,10 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/checkout.css" />
         <option value="$PROJECT_DIR$/lib/tasks/sass.rake" />
         <option value="$PROJECT_DIR$/Capfile" />
-        <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_navigation.scss" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/variables.css.scss" />
+        <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_navigation.scss" />
+        <option value="$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/jquery.bxslider.scss" />
       </list>
     </option>
   </component>
@@ -582,16 +602,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spree-snippets/app/overrides/add_snippets_admin_tab.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="554" selection-end="554" vertical-scroll-proportion="0.4085603" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="29" selection-start="734" selection-end="734" vertical-scroll-proportion="0.5252918" />
@@ -651,23 +661,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/variables.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
+        <state line="61" column="78" selection-start="2723" selection-end="2755" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="4" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0">
+        <state line="98" column="48" selection-start="1891" selection-end="1896" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/jquery.bxslider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="304" selection-end="304" vertical-scroll-proportion="0.4377432">
+        <state line="176" column="4" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="32" selection-start="4986" selection-end="4986" vertical-scroll-proportion="0.52575105">
           <folding />
         </state>
       </provider>
