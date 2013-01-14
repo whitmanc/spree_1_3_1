@@ -31,6 +31,13 @@ GIT
       spree_core (~> 1.2)
 
 GIT
+  remote: git://github.com/haml/haml.git
+  revision: 339e44990adeb2ecb3b82012ad0e7c7444ff3ce7
+  branch: 3-1-stable
+  specs:
+    haml (3.1.7)
+
+GIT
   remote: git://github.com/mzahir/spree-mail-chimp.git
   revision: e55d79f0837fdec434dadf8b4243b7a8e42849c0
   specs:
@@ -220,7 +227,6 @@ GEM
     formtastic (2.2.1)
       actionpack (>= 3.0)
     fssm (0.2.9)
-    haml (3.1.7)
     highline (1.6.11)
     hike (1.2.1)
     hominid (3.0.5)
@@ -380,7 +386,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   coffee-rails (~> 3.2.1)
-  haml
+  haml!
   jquery-rails
   mysql2
   rails (= 3.2.11)

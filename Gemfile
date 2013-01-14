@@ -7,7 +7,7 @@ gem 'rails', '3.2.11'
 
 gem 'mysql2'
 
-gem 'haml'
+gem 'haml', :github => 'haml/haml', :branch => '3-1-stable'
 
 
 # Gems used only for assets and not required
