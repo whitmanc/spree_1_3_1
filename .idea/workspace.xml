@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/tasks/sass.rake" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capfile" afterPath="$PROJECT_DIR$/Capfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="jewelry_store.iws" />
@@ -39,7 +36,25 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="27" selection-start="244" selection-end="244" vertical-scroll-proportion="0.32101166">
+            <state line="15" column="32" selection-start="304" selection-end="304" vertical-scroll-proportion="0.4377432">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/variables.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="8" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navigation.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_navigation.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="4" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_product_item.scss" />
         <option value="$PROJECT_DIR$/spree-snippets/spree_snippets.gemspec" />
         <option value="$PROJECT_DIR$/spree-snippets/app/models/spree/snippet.rb" />
         <option value="$PROJECT_DIR$/spree-snippets/app/views/spree/admin/snippets/_form.html.erb" />
@@ -91,6 +105,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/checkout.css" />
         <option value="$PROJECT_DIR$/lib/tasks/sass.rake" />
         <option value="$PROJECT_DIR$/Capfile" />
+        <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_navigation.scss" />
         <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
@@ -567,11 +582,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spree-snippets/app/views/spree/admin/snippets/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="118" selection-end="118" vertical-scroll-proportion="0.12195122" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spree-snippets/app/overrides/add_snippets_admin_tab.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -641,9 +651,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/variables.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="8" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="4" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="244" selection-end="244" vertical-scroll-proportion="0.32101166">
+        <state line="15" column="32" selection-start="304" selection-end="304" vertical-scroll-proportion="0.4377432">
           <folding />
         </state>
       </provider>
