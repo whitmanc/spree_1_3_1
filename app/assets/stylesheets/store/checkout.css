@@ -1,0 +1,11 @@
+.payment-method-selector {
+    display: none;
+}
+
+#payment-methods {
+    margin: 35px 0 100px 272px;
+}
+
+#checkout_form_payment .form-buttons {
+    display: none;
+}
