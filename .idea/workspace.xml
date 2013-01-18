@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="jewelry_store.iws" />
@@ -68,7 +67,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.8768267">
+            <state line="61" column="0" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.75156575">
               <folding />
             </state>
           </provider>
@@ -896,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.8768267">
+        <state line="61" column="0" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.75156575">
           <folding />
         </state>
       </provider>
