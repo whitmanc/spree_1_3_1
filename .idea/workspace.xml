@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/store/splash.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store/splash.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130118133839_add_slider_taxons_and_apply_them.spree_fancy.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/store/all.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
     </list>
     <ignored path="jewelry_store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,13 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="all.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="all.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1358516310000" expanded="true" signature="3:559" placeholder="/*...*/" />
-              </folding>
+            <state line="15" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.4828326">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,10 +42,8 @@
       <file leaf-file-name="all.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/all.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="1" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1358516310000" expanded="true" signature="3:707" placeholder="/*...*/" />
-              </folding>
+            <state line="20" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,7 +62,7 @@
       <file leaf-file-name="all.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -71,16 +73,16 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.0">
+            <state line="56" column="42" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="splash.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="splash.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/splash.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="31" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.82954544">
+            <state line="31" column="31" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-14.038462">
               <folding />
             </state>
           </provider>
@@ -109,12 +111,12 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/splash.css" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
       </list>
     </option>
   </component>
@@ -851,20 +853,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1358516310000" expanded="true" signature="3:559" placeholder="/*...*/" />
-          </folding>
+        <state line="1" column="16" selection-start="35" selection-end="35" vertical-scroll-proportion="0.03131524">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/all.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/splash.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+        <state line="31" column="31" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-14.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="42" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1358516310000" expanded="true" signature="3:707" placeholder="/*...*/" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -878,32 +892,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/footer.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="35" selection-end="35" vertical-scroll-proportion="0.03131524">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/splash.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="31" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.82954544">
+        <state line="15" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.4828326">
           <folding />
         </state>
       </provider>

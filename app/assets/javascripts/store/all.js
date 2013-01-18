@@ -19,4 +19,4 @@
 
 //= require jquery.rating
 
-//= require store/spree_fancy
+
