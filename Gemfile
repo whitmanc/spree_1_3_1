@@ -26,6 +26,8 @@ gem 'therubyracer', :group => :production
 
 gem 'jquery-rails'
 
+gem 'foreman'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
