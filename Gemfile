@@ -35,14 +35,14 @@ gem 'foreman'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-gem 'unicorn'
+# gem 'unicorn'
 
 # Deploy with Capistrano
 gem 'capistrano'
 
 # To use debugger
 # gem 'debugger'
-gem 'spree',                  :github => 'spree/spree', :branch => '1-3-stable'
+gem 'spree', '1.3.1'
 gem 'spree_auth_devise',      :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
 gem 'spree_reviews',          :github => 'spree/spree_reviews'
 gem 'spree_social_products',  :github => 'spree/spree_social_products'
