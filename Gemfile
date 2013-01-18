@@ -42,7 +42,7 @@ gem 'capistrano'
 
 # To use debugger
 # gem 'debugger'
-gem 'spree', '1.3.1'
+gem 'spree',                  :github => 'spree/spree', :branch => '1-3-stable'
 gem 'spree_auth_devise',      :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
 gem 'spree_reviews',          :github => 'spree/spree_reviews'
 gem 'spree_social_products',  :github => 'spree/spree_social_products'
