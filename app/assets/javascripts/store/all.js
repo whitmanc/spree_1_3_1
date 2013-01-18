@@ -16,5 +16,5 @@
 //= require store/spree_faq
 //= require store/spree_product_zoom
 //= require store/spree_essential_menus
-//= require store/spree_fancy
+
 //= require jquery.rating
