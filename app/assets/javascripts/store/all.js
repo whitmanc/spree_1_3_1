@@ -18,3 +18,4 @@
 //= require store/spree_essential_menus
 
 //= require jquery.rating
+//= require store/spree_fancy
