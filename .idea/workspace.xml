@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130118133839_add_slider_taxons_and_apply_them.spree_fancy.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/store/all.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
     </list>
     <ignored path="jewelry_store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="all.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="all.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.4828326">
+            <state line="17" column="31" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="42" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.0">
+            <state line="37" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.8768267">
               <folding />
             </state>
           </provider>
@@ -112,11 +107,11 @@
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/splash.css" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -867,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="42" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
@@ -901,7 +889,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.4828326">
+        <state line="17" column="31" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.8768267">
           <folding />
         </state>
       </provider>
