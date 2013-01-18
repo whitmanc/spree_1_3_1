@@ -28,3 +28,6 @@
 LI#home-link a:hover {
     color: red !important;
 }
+.carousel li .product-name {
+    margin-top: 10px !important;
+}
