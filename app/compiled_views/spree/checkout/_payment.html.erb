@@ -1,0 +1,33 @@
+<fieldset id="payment" data-hook>
+<legend align="center"><%= t(:payment_information) %></legend>
+  <div data-hook="checkout_payment_step">
+    
+<div class="payment-method-selector">
+  <% @order.available_payment_methods.each do |method| %>    
+    <%= radio_button_tag "order[payments_attributes][][payment_method_id]", method.id, method == @order.payment_method %>
+    <label for="order_payments_attributes__payment_method_id_<%= method.id %>">
+      <%= t(method.name, :scope => :payment_methods, :default => method.name) %>
+    </label>
+  <% end %>
+</div>
+
+    <ul id="payment-methods" data-hook>
+<% @order.available_payment_methods.each do |method| %>
+        <li id="payment_method_<%= method.id %>" class="<%= 'last' if method == @order.available_payment_methods.last %>" data-hook>
+          <fieldset>
+<%= render :partial => "spree/checkout/payment/#{method.method_type}", :locals => { :payment_method => method } %>
+          </fieldset>
+</li>
+      <% end %>
+    </ul>
+<br style="clear:both;"><% if Spree::Promotion.count > 0 %>
+  <p class="field" data-hook="coupon_code">
+    <%= form.label :coupon_code %><br><%= form.text_field :coupon_code %>
+  </p>
+<% end %>
+  </div>
+</fieldset><br class="space"><div class="form-buttons" data-hook="buttons">
+  
+<%= button_tag content_tag(:i, '', :class => 'icon-right-bold') + ' ' + t(:save_and_continue), :type => 'submit', :class => 'continue button primary' %>
+  <script>disableSaveOnClick();</script>
+</div>

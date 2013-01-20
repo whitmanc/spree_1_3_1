@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="jewelry_store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,19 +98,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_print_stylesheet.html.erb.deface" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="add_print_stylesheet.html.erb.deface" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="25" selection-start="81" selection-end="81" vertical-scroll-proportion="0.036319613">
+            <state line="1" column="25" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="63" selection-start="2427" selection-end="2427" vertical-scroll-proportion="0.0">
+            <state line="64" column="31" selection-start="2345" selection-end="2345" vertical-scroll-proportion="0.5875">
               <folding />
             </state>
           </provider>
@@ -140,11 +140,11 @@
         <option value="$PROJECT_DIR$/spree_fancy/spree_fancy.gemspec" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/print.css" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
         <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -938,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="63" selection-start="2427" selection-end="2427" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="4" selection-start="3264" selection-end="3264" vertical-scroll-proportion="-23.576923">
@@ -975,7 +968,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="81" selection-end="81" vertical-scroll-proportion="0.036319613">
+        <state line="1" column="25" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="31" selection-start="2345" selection-end="2345" vertical-scroll-proportion="0.5875">
           <folding />
         </state>
       </provider>

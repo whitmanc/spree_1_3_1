@@ -1,0 +1,20 @@
+<nav id="top-nav-bar" class="columns five"><ul id="nav-bar" class="inline" data-hook>
+<li id="link-to-cart" data-hook>
+  <a href="/cart"><i class="icon-basket"></i> <%= link_to_cart %></a>  
+</li>
+<% if spree_current_user %>
+  <li>
+<%= link_to content_tag(:i, '', :class => 'icon-user'), spree.account_path, :title => t(:my_account) %>
+</li>
+  <li>
+<%= link_to content_tag(:i, '', :class => 'icon-logout'), spree.destroy_user_session_path, :title => t(:logout) %>
+</li>
+<% else %>
+  <li id="link-to-login">
+<%= link_to content_tag(:i, '', :class => 'icon-login'), spree.login_path, :title => t(:login) %>
+</li>
+<% end %><li id="search-bar" data-hook>
+<a href="#"><i class="icon-search"></i></a>
+      <%= render :partial => 'spree/shared/search' %>
+    </li>
+  </ul></nav>

@@ -1,0 +1,17 @@
+<p>
+  <%= f.label :email, t(:email) %><br><%= f.email_field :email, :class => 'title' %>
+</p>
+<div id="password-credentials">
+  <p>
+    <%= f.label :password, t(:password) %><br><%= f.password_field :password, :class => 'title' %>
+  </p>
+
+  <p>
+    <%= f.label :password_confirmation, t(:confirm_password) %><br><%= f.password_field :password_confirmation, :class => 'title' %>
+  </p>
+</div>
+
+<div data-hook="signup_below_password_fields"><p class="login_newsletter_subscribe">
+  <%= check_box :user, :is_mail_list_subscriber, :class => 'title' %>
+  <%= label :user, :is_mail_list_subscriber, t(:do_subscribe_to_our_mailing_list) %>
+</p></div>

@@ -1,0 +1,45 @@
+<%= render :partial => 'spree/shared/error_messages', :locals => { :target => @user } %>
+
+<% content_for :subheader do %>
+  <h1><%= t(:registration) %></h1>
+<% end %>
+<div id="registration" data-hook>
+  <div id="account" class="columns alpha eight">
+<% if flash[:alert] %>
+  <div class="flash errors"><%= flash[:alert] %></div>
+<% end %>
+
+<% @body_id = 'login' %>
+<div id="existing-customer">
+  
+<% unless current_page?(checkout_registration_path) %>
+  <% content_for :subheader do %>
+    
+<% content_for :subheader do %>
+  <h1><%= t(:registration) %></h1>
+<% end %>
+  <% end %>
+<% else %>
+  <h3><%= t(:login_as_existing) %></h3>
+<% end %>
+  <div data-hook="login">
+    <%= render :partial => 'spree/shared/login' %>
+    <%= t(:or) %> <%= link_to t(:create_a_new_account), spree.signup_path %> | <%= link_to t(:forgot_password), spree.new_user_password_path %>
+  </div>
+</div>
+<div data-hook="login_extras"></div>
+</div>
+  <% if Spree::Config[:allow_guest_checkout] %>
+    <div id="guest_checkout" data-hook class="columns omega eight">
+      <%= render :partial => 'spree/shared/error_messages', :locals => { :target => @order } %>
+      
+<h3><%= t(:guest_user_account) %></h3>
+      <%= form_for @order, :url => update_checkout_registration_path, :method => :put, :html => { :id => 'checkout_form_registration' } do |f| %>
+        <p>
+          <%= f.label :email, t(:email) %><br><%= f.email_field :email, :class => 'title' %>
+        </p>
+        <p><%= f.submit t(:continue), :class => 'button primary' %></p>
+      <% end %>
+    </div>
+  <% end %>
+</div>
