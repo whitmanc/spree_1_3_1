@@ -2,7 +2,7 @@
 <!--[if lt IE 7 ]> <html class="ie ie6"  lang="<%= I18n.locale %>"> <![endif]--><!--[if IE 7 ]>    <html class="ie ie7"  lang="<%= I18n.locale %>"> <![endif]--><!--[if IE 8 ]>    <html class="ie ie8"  lang="<%= I18n.locale %>"> <![endif]--><!--[if IE 9 ]>    <html class="ie ie9"  lang="<%= I18n.locale %>"> <![endif]--><!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>">
 <!--<![endif]--><head data-hook="inside_head">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<%= render :partial => 'spree/shared/head' %><% if Spree::Dash::Config.configured? %>
+<%= render :partial => 'spree/shared/head' %><%= csrf_meta_tags %><% if Spree::Dash::Config.configured? %>
   <script type="text/javascript" id="analytics">
     var jirafe= <%= raw analytics_tags.to_json %>;
     (function(){
