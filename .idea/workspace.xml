@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.css" afterPath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.css.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.css.scss" afterPath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" afterPath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" />
     </list>
     <ignored path="jewelry_store.iws" />
@@ -37,19 +37,17 @@
       <file leaf-file-name="spree_fancy.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="297" selection-end="297" vertical-scroll-proportion="0.31704095">
+            <state line="5" column="16" selection-start="120" selection-end="120" vertical-scroll-proportion="0.099075295">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="print.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.css.scss">
+      <file leaf-file-name="print.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="80" selection-start="0" selection-end="1486" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1358539859000" expanded="true" signature="13:1486" placeholder="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -842,12 +840,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.css.scss">
+    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="80" selection-start="0" selection-end="1486" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1358539859000" expanded="true" signature="13:1486" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,7 +877,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="297" selection-end="297" vertical-scroll-proportion="0.31704095">
+        <state line="5" column="16" selection-start="120" selection-end="120" vertical-scroll-proportion="0.099075295">
           <folding />
         </state>
       </provider>
