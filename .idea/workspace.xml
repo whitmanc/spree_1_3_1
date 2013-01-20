@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" afterPath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface" />
     </list>
     <ignored path="jewelry_store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spree_fancy.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="spree_fancy.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="103" selection-end="103" vertical-scroll-proportion="0.13129103">
+            <state line="4" column="22" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +92,16 @@
       <file leaf-file-name="add_print_stylesheet.html.erb.deface" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+            <state line="1" column="46" selection-start="101" selection-end="102" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_print_stylesheet.html.erb.deface" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="25" selection-start="81" selection-end="81" vertical-scroll-proportion="0.036319613">
               <folding />
             </state>
           </provider>
@@ -104,15 +111,6 @@
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="65" column="63" selection-start="2427" selection-end="2427" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spree_fancy.gemspec" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spree_fancy/spree_fancy.gemspec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -479,11 +477,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="overrides" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,33 +495,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="overrides" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="spree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
+              <option name="myItemId" value="shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="_head" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,6 +522,9 @@
     <property name="GoToClass.includeJavaFiles" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/overrides/spree/shared/_head" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store" />
       <recent name="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared" />
@@ -881,11 +864,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spree_fancy/app/overrides/spree/layouts/spree_application/add_container_to_layout.html.erb.deface.old">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="158" selection-end="158" vertical-scroll-proportion="0.12526096" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spree_fancy/app/overrides/spree/layouts/spree_application/move_breadcrumb_inside_subheader.html.erb.deface">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -967,13 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="4" selection-start="3264" selection-end="3264" vertical-scroll-proportion="-23.576923">
@@ -990,7 +961,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="103" selection-end="103" vertical-scroll-proportion="0.13129103">
+        <state line="4" column="22" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="46" selection-start="101" selection-end="102" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="25" selection-start="81" selection-end="81" vertical-scroll-proportion="0.036319613">
           <folding />
         </state>
       </provider>
