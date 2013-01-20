@@ -19,3 +19,4 @@
 
 //= require admin/spree_fancy
 //= require admin/spree_editor
+//= require admin/jquery.horizontalNav
