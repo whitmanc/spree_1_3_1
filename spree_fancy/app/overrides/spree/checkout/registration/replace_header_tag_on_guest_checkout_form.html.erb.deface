@@ -1,2 +1,0 @@
-<!-- replace '#guest_checkout h6' -->
-<h3><%= t(:guest_user_account) %></h3>

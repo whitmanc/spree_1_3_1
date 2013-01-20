@@ -26,6 +26,7 @@ end
 
 gem 'therubyracer', :group => :production
 
+gem 'ffi', :ref => '1.3.1'
 gem 'jquery-rails'
 
 gem 'foreman'
@@ -61,5 +62,5 @@ gem 'spree_essential_menus',  :github => 'assembled/spree_essential_menus'
 gem 'spree_clean',            :github => 'spree/spree_clean'
 gem 'spree_editor',           :github => 'bbtfr/spree_editor', :branch => '1.3.x'
 gem 'tinymce-rails', '>= 3.4.7.0.1'
-gem 'spree_fancy',            :github => 'cototion/spree_fancy'
+gem 'spree_fancy',            :github => 'whitmanc/spree_fancy'
 gem 'spree_snippets',         :path   => 'spree-snippets/'

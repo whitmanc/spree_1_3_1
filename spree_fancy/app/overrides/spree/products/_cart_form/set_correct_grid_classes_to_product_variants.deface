@@ -1,2 +1,0 @@
-set_attributes '#product-variants'
-attributes :class => 'alpha omega ten columns'

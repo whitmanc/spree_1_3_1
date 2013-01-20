@@ -1,2 +1,0 @@
-set_attributes '[data-hook="product_price"]'
-attributes :class => 'alpha omega ten columns'
