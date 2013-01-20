@@ -63,4 +63,3 @@ gem 'spree_editor',           :github => 'bbtfr/spree_editor', :branch => '1.3.x
 gem 'tinymce-rails', '>= 3.4.7.0.1'
 gem 'spree_snippets',         :path   => 'spree-snippets/'
 gem 'spree_fancy',            :github => 'whitmanc/spree_fancy'
-gem 'spree_reviews',          :github => 'spree/spree_reviews', :ref => '581f5899090010bc38c0e8e543e8e00e39acb035'
