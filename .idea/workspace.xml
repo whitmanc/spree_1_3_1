@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/store/all.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
     </list>
     <ignored path="jewelry_store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,13 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
+      <file leaf-file-name="spree_fancy.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="5" column="17" selection-start="121" selection-end="121" vertical-scroll-proportion="0.09627728">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,35 +61,6 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store/all.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/all.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="1" selection-start="452" selection-end="452" vertical-scroll-proportion="0.23106547">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -111,17 +83,17 @@
         <option value="$PROJECT_DIR$/spree_fancy/spree_fancy.gemspec" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/print.css" />
         <option value="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface" />
-        <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" />
         <option value="$PROJECT_DIR$/app/views/spree/shared/_head.html.erb" />
         <option value="$PROJECT_DIR$/app/compiled_views/spree/layouts/spree_application.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/compiled_views/spree/shared/_head.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
+        <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" />
       </list>
     </option>
   </component>
@@ -223,96 +195,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree_fancy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="overrides" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree_fancy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="overrides" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree_fancy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="overrides" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_head" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1055,20 +937,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/admin/spree_fancy.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="10" selection-end="31" vertical-scroll-proportion="0.01981506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared/_media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/print.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="52" selection-start="457" selection-end="457" vertical-scroll-proportion="0.47215497">
@@ -1079,27 +947,6 @@
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="33" selection-start="3258" selection-end="3258" vertical-scroll-proportion="0.8406206">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="80" selection-start="0" selection-end="1486" vertical-scroll-proportion="0.4953765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="103" selection-end="103" vertical-scroll-proportion="0.07926024">
           <folding />
         </state>
       </provider>
@@ -1118,10 +965,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="72" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="525" selection-end="556" vertical-scroll-proportion="0.3080873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
+        <state line="20" column="35" selection-start="674" selection-end="704" vertical-scroll-proportion="0.38510913">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="35" selection-start="637" selection-end="667" vertical-scroll-proportion="0.42362002">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1134,10 +1004,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="72" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="8" column="23" selection-start="444" selection-end="444" vertical-scroll-proportion="0.15404364">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,27 +1020,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
+    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store/all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="452" selection-end="452" vertical-scroll-proportion="0.23106547">
+        <state line="5" column="17" selection-start="121" selection-end="121" vertical-scroll-proportion="0.09627728">
           <folding />
         </state>
       </provider>
