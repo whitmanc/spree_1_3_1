@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_fancy'
-  s.version     = '1.3.0'
+  s.version     = '1.3.1'
   s.summary     = 'Fancy Spree Theme'
   s.description = 'Fancy theme to apply to out of the box Spree so it looks a bit nicer. Use it as a starting point.'
   s.required_ruby_version = '>= 1.8.7'
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 1.3.0.rc1'
+  s.add_dependency 'spree_core', '~> 1.3.1'
   s.add_dependency 'compass-rails'
 
   s.add_development_dependency 'capybara', '1.0.1'

@@ -17,7 +17,7 @@ GIT
 
 GIT
   remote: git://github.com/bbtfr/spree_editor.git
-  revision: 49a3e4c45154a652f1626db3db0f1602cbfd191a
+  revision: 1ef11e3b6c99ce3d6bd8d860fdb2ffcc1cd046c4
   branch: 1.3.x
   specs:
     spree_editor (1.0.1)
@@ -46,7 +46,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_auth_devise.git
-  revision: 35f0c07880babd54040fef07bd375c22f81fbda3
+  revision: a32c652ab8eaeeb324be9614fd38ae6d1c4f2c0c
   branch: 1-3-stable
   specs:
     spree_auth_devise (1.0.0)
@@ -63,11 +63,11 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_paypal_express.git
-  revision: f2ca9cc90de539bc2514898163a4eb9d744518bd
+  revision: e493ae1724a96962e2af2422b7a6d077d02ac5c8
   branch: 1-3-stable
   specs:
     spree_paypal_express (1.2.0)
-      spree_core (~> 1.2)
+      spree_core (~> 1.3.0)
 
 GIT
   remote: git://github.com/spree/spree_recently_viewed.git
@@ -78,7 +78,8 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_related_products.git
-  revision: e0fdbf84c63ff36fdc45e5c3009eb290a5a8fec6
+  revision: 5def88e237577d452fac3d763af7a415e34b3d0c
+  ref: 5def88e237577d452fac3d763af7a415e34b3d0c
   specs:
     spree_related_products (3.2)
       spree_core (~> 1.3.0)
@@ -86,7 +87,8 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_reviews.git
-  revision: e1622113e8cc67e757bc0a6e166f86bc7d21716a
+  revision: 581f5899090010bc38c0e8e543e8e00e39acb035
+  ref: 581f5899090010bc38c0e8e543e8e00e39acb035
   specs:
     spree_reviews (1.0.0)
       spree_core (~> 1.3)
@@ -122,9 +124,9 @@ PATH
 PATH
   remote: spree_fancy/
   specs:
-    spree_fancy (1.3.0)
+    spree_fancy (1.3.1)
       compass-rails
-      spree_core (~> 1.3.0.rc1)
+      spree_core (~> 1.3.1)
 
 GEM
   remote: https://rubygems.org/
@@ -231,7 +233,7 @@ GEM
       multi_xml
     i18n (0.6.1)
     journey (1.0.4)
-    jquery-rails (2.1.4)
+    jquery-rails (2.2.0)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.7.6)
@@ -303,7 +305,7 @@ GEM
       json (~> 1.4)
     ref (1.0.2)
     sass (3.2.5)
-    sass-rails (3.2.5)
+    sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
@@ -354,7 +356,7 @@ GEM
       tilt (~> 1.1, != 1.3.0)
     state_machine (1.1.2)
     stringex (1.3.3)
-    therubyracer (0.11.2)
+    therubyracer (0.11.3)
       libv8 (~> 3.11.8.12)
       ref
     thor (0.16.0)
