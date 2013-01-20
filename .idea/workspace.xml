@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.scss" afterPath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared/print.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared/print.scss" afterPath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" afterPath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" />
     </list>
     <ignored path="jewelry_store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="spree_fancy.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="547" selection-end="547" vertical-scroll-proportion="0.46213093">
+            <state line="15" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.28883183">
               <folding />
             </state>
           </provider>
@@ -66,12 +66,12 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/splash.css" />
         <option value="$PROJECT_DIR$/app/views/spree/shared/_head.html.erb" />
         <option value="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface" />
-        <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" />
       </list>
     </option>
   </component>
@@ -251,6 +251,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry_store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry_store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree_fancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,11 +568,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store" />
       <recent name="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared" />
       <recent name="$PROJECT_DIR$/app/assets/images/store" />
       <recent name="$PROJECT_DIR$/app/assets/images/admin" />
       <recent name="$PROJECT_DIR$/app/views/spree" />
-      <recent name="$PROJECT_DIR$/app/views" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: jewelry_store">
@@ -795,14 +829,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37220845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4468391" sideWeight="0.6277916" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4468391" sideWeight="0.6277916" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -918,7 +952,7 @@
         <state line="4" column="16" selection-start="158" selection-end="158" vertical-scroll-proportion="0.12526096" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared/print.scss">
+    <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="24" selection-start="324" selection-end="324" vertical-scroll-proportion="0.34446764" />
       </provider>
@@ -969,7 +1003,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="547" selection-end="547" vertical-scroll-proportion="0.46213093">
+        <state line="15" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.28883183">
           <folding />
         </state>
       </provider>
