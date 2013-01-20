@@ -18,3 +18,4 @@
 //= require admin/spree_essential_menus
 
 //= require admin/spree_fancy
+//= require admin/spree_editor

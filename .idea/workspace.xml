@@ -2,136 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be8d66-be5a-448b-8105-88d6a48715ce" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/spree/shared/_head.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/.rspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/Versionfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/images/store/footer-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/images/store/logo-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/images/store/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/images/store/subheader-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/javascripts/admin/spree_fancy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/javascripts/store/spree_fancy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/admin/spree_fancy.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_breadcrumbs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_cart.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_messages.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_navigation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_product_item.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_search.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/components/_variants.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/print.scss.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/sections/_cart.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/sections/_checkout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/sections/_contact_us.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/sections/_user.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared/_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared/_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/shared/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/variables.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/controllers/spree/home_controller_decorator.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/checkout/_address/add_icon_to_address_submit_button.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/checkout/_confirm/add_icon_to_confirm_submit_button.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/checkout/_delivery/add_icon_to_delivery_submit_button.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/checkout/_payment/add_icon_to_payment_submit_button.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/checkout/_payment/make_paymeth_method_selection_as_a_button.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/checkout/edit/move_checkout_header_to_layout_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/checkout/registration/move_registration_page_title_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/checkout/registration/replace_header_tag_on_guest_checkout_form.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/contact_us/contacts/new/add_icon_to_send_button.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/contact_us/contacts/new/move_contact_us_title_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/layouts/spree_application/add_container_to_layout.html.erb.deface.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/layouts/spree_application/add_container_to_wrapper.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/layouts/spree_application/add_mobile_navigation.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/layouts/spree_application/add_slider_pager_to_wrapper.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/layouts/spree_application/add_subheader_to_layout.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/layouts/spree_application/move_breadcrumb_inside_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/layouts/spree_application/unwrap_header_from_container_class.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/orders/edit/add_icons_to_cart_buttons.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/orders/edit/add_icons_to_clear_cart_link.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/orders/edit/move_shopping_cart_title_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/products/_cart_form/add_icon_to_add_to_cart_button.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/products/_cart_form/remove_price_label_on_products_show.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/products/_cart_form/replace_varaints_selection_markup_to_fit_for_jquery_ui.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/products/_cart_form/set_correct_grid_classes_to_product_price.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/products/_cart_form/set_correct_grid_classes_to_product_variants.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/products/index/add_products_index_title_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/products/show/add_products_show_title_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/products/show/move_cart_partial_before_description.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_filters/add_icon_to_search_button.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_header/replace_logo_grid_class.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_header/wrap_header_content_with_container_class.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_main_nav_bar/insert_menu_trigger_link_to_main_menu.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_main_nav_bar/insert_shop_link_to_main_menu.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_main_nav_bar/remove_cart_link.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_main_nav_bar/replace_main_nav_bar_grid_classes.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_nav_bar/add_cart_link.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_nav_bar/add_search_icon_to_nav_bar.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_nav_bar/replace_login_with_icon.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_nav_bar/replace_logout_with_icon.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_nav_bar/replace_my_account_with_icon.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_nav_bar/replace_nav_bar_grid_classes.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_products/show_3_products_in_row.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_products/show_larger_image_in List.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_search/remove_search_button.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_search/remove_taxon_search_select.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_taxonomies/hide_tags_taxonomy.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/static_content/show/move_page_name_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/static_content/show/move_taxon_name_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/taxons/show/move_taxon_name_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/user_passwords/edit/move_change_password_form_title_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/user_passwords/new/move_password_reminder_form_title_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/user_registrations/new/move_registration_form_title_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/user_sessions/new/move_login_form_title_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/users/show/add_user_info_title.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/users/show/move_my_account_title_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/overrides/spree/users/show/move_taxon_name_to_subheader.html.erb.deface" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/views/spree/home/_product.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/views/spree/home/_slider.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/views/spree/home/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/app/views/spree/shared/_footer.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/config/locales/en.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/config/routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/db/migrate/20121211151950_add_slider_taxons_and_apply_them.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/lib/generators/spree_fancy/install/install_generator.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/lib/spree_fancy.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/lib/spree_fancy/engine.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/script/rails" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/spec/spec_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/spree_fancy.gemspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/fonts/icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/fonts/icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/fonts/icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/fonts/icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/images/bx_loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/javascripts/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/javascripts/enquire.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/javascripts/jquery.bxslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/javascripts/jquery.dotdotdot-1.5.2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/javascripts/jquery.hoverIntent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/javascripts/matchMedia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/icons-codes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/icons-ie7-codes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/icons-ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/jquery-ui-1.9.2.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spree_fancy/vendor/assets/stylesheets/jquery.bxslider.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jewelry_store.iml" afterPath="$PROJECT_DIR$/.idea/jewelry_store.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/store/all.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
     </list>
     <ignored path="jewelry_store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -153,37 +31,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="116" selection-start="2261" selection-end="2261" vertical-scroll-proportion="0.8629243">
+            <state line="49" column="1" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="27" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store/all.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="all.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="40" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/all.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="29" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="45" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="4" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.49234137">
               <folding />
             </state>
           </provider>
@@ -196,6 +87,24 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.markitup.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spree_essentials/app/assets/javascripts/admin/jquery.markitup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="417" column="34" selection-start="13510" selection-end="13510" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="45" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -213,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/splash.css" />
         <option value="$PROJECT_DIR$/spree_fancy/spree_fancy.gemspec" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/print.css" />
         <option value="$PROJECT_DIR$/spree_fancy/app/overrides/spree/shared/_head/add_print_stylesheet.html.erb.deface" />
@@ -221,14 +129,15 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/compiled_views/spree/shared/_head.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
         <option value="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" />
         <option value="$PROJECT_DIR$/spree_fancy/app/assets/stylesheets/store/spree_fancy.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
         <option value="$PROJECT_DIR$/app/views/spree/shared/_head.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/store/fancy.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
       </list>
     </option>
   </component>
@@ -311,6 +220,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry_store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry_store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -346,22 +269,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -377,43 +284,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="overrides" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry_store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,6 +303,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry_store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry_store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry_store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry_store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -583,6 +510,15 @@
         <option name="RakeTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="RakeTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="jewelry_store" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -716,7 +652,7 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37220845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37220845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34841955" sideWeight="0.6277916" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -802,19 +738,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="525" selection-end="556" vertical-scroll-proportion="0.3080873">
+        <state line="63" column="4" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store/all.js">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="35" selection-start="637" selection-end="667" vertical-scroll-proportion="0.42362002">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="2" column="45" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spree_essentials/app/assets/javascripts/admin/jquery.markitup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="417" column="34" selection-start="13510" selection-end="13510" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -827,39 +768,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="1" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="444" selection-end="444" vertical-scroll-proportion="0.15404364">
+        <state line="9" column="27" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="45" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25">
+        <state line="18" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="29" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="4" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="116" selection-start="2261" selection-end="2261" vertical-scroll-proportion="0.8629243">
+        <state line="15" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.49234137">
           <folding />
         </state>
       </provider>

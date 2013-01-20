@@ -8,16 +8,14 @@
 
 //= require store/spree_core
 //= require store/spree_promo
+//= require store/spree_fancy
 
 //= require_tree .
 
 //= require store/spree_social_products
 //= require store/spree_mail_chimp
 //= require store/spree_faq
-//= require store/spree_product_zoom
 //= require store/spree_essential_menus
 
-//= require jquery.rating
 
 
-//= require store/spree_fancy
