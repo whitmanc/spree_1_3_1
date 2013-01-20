@@ -1,4 +1,0 @@
-<!-- surround_contents '#header' -->
-<div class="container">
-  <%= render_original %>
-</div>
